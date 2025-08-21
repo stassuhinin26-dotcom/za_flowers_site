@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Za Flowers — Ставрополь</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Za Flowers</div>
+    <div class="nav">
+      <a href="https://www.instagram.com/za_flowers_da" target="_blank">Instagram</a>
+      <a href="tel:+79054999320">8 905 499 9320</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Цветы, которые говорят</h1>
+    <p>Доставка по Ставрополю, свежесть и элегантность</p>
+    <button onclick="window.open('https://www.instagram.com/za_flowers_da','_blank')">
+      Посмотреть в Instagram
+    </button>
+  </section>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="https://placehold.co/300x300/f0e6d2/001f4d?text=Фиолетовая+нежность" alt="Фиолетовая нежность">
+      <h3>Фиолетовая нежность</h3>
+      <button>Заказать</button>
+    </div>
+    <div class="card">
+      <img src="https://placehold.co/300x300/001f4d/f0e6d2?text=Синий+вечер" alt="Синий вечер">
+      <h3>Синий вечер</h3>
+      <button>Заказать</button>
+    </div>
+    <div class="card">
+      <img src="https://placehold.co/300x300/000000/f0e6d2?text=Черная+роскошь" alt="Черная роскошь">
+      <h3>Черная роскошь</h3>
+      <button>Заказать</button>
+    </div>
+    <div class="card">
+      <img src="https://placehold.co/300x300/d2c6b2/001f4d?text=Бежевый+рассвет" alt="Бежевый рассвет">
+      <h3>Бежевый рассвет</h3>
+      <button>Заказать</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>©️ 2025 Za Flowers — Ставрополь</p>
+    <p><a href="https://www.instagram.com/za_flowers_da" target="_blank">Instagram</a> | 
+       <a href="tel:+79054999320">8 905 499 9320</a></p>
+  </footer>
+
+  <div class="flower-cursor" id="flower"></div>
+  <script src="script.js"></script>
+</body>
+</html>

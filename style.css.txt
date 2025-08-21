@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #f0e6d2;
+  background: linear-gradient(135deg, #4b0073, #000, #001f4d);
+}
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: #f0e6d2;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 3em;
+}
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #f0e6d2;
+  color: #001f4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #f0e6d2;
+  color: #001f4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+.flower-cursor {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('https://placehold.co/25x25/ff69b4/fff?text=✿') no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+}
