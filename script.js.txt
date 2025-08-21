@@ -3,3 +3,4 @@ document.addEventListener('mousemove', (e) => {
   flower.style.left = e.pageX + 'px';
   flower.style.top = e.pageY + 'px';
 });
+
